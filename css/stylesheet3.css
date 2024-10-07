@@ -400,7 +400,7 @@ ul li {
 ul li a:hover {
   transform: scale(1.1);
   transition: 0.3s;
-  color: black;
+  color: yellow;
 }
 
 #hamburger-icon {
@@ -572,17 +572,27 @@ width: 400px;}
 /* link*/
 
 
+
+span.hp{font-family: American Typewriter;
+font-weight: bold;
+font-size: 14pt;
+}
+
+.WA{position:relative;
+display:inline-block;
+margin: 0px 0px 0px 0px;}
+
+#lighther{color:#7DF9FF;}
+
+a:hover#lighther{color:yellow;}
+
 a{text-decoration: none;
 color:#a43627;}
-a:hover{color: #32201e;}
 
-a#ligther:link{
-	color:#0AAAAA ;
+a:hover{color: yellow;
 }
 
-a#ligther:hover{
-	color: yellow;
-}
+
 
 #lock{display: block;
 	position: relative;
