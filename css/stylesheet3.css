@@ -1,3 +1,9 @@
+#callout {position: fixed;
+display: block;
+right: 0px;
+margin: 8px 8px 8px 8px;
+bottom:0;}
+
 
 
 #logoimg {display: block; /*to make the image-rendering centerlise*/
