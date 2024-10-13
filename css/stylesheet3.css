@@ -1,3 +1,10 @@
+div#jobsd{margin: 0;
+	text-align: center;
+}
+img.jobs{margin:8px;
+	text-align: center;
+}
+
 #callout {position: fixed;
 display: block;
 margin: 8px 8px 8px 8px;
@@ -224,7 +231,12 @@ padding-top: 20px;}
 
 #bsec{background-color: white;}
 
-
+.nj{
+	text-align: center;
+	position: relative;
+	margin: 30px;
+	margin: auto;
+}
 
 .logos{
 	text-align: center;
