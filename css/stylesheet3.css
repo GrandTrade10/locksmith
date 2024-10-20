@@ -1,3 +1,5 @@
+
+
 div#jobsd{margin: 0;
 	text-align: center;
 }
@@ -6,7 +8,7 @@ img.jobs{margin:8px;
 }
 
 
-p.vision{padding: 10px;}
+p.vision{padding: 15px;}
 
 
 #callout {position: fixed;
@@ -15,6 +17,21 @@ margin: 8px 8px 8px 8px;
 padding-bottom: 1.5em;
 bottom:0;}
 
+/* Language change */
+#language{position:absolute; 
+display: block;
+width: 45px;
+height: 30px;
+margin: 6px 6px 6px 6px;
+padding: 0px 2px 2px 2px;
+top:0;
+right:0px;}
+
+p.lan{font-size: 11pt;
+position: relative;
+top:-0.8em;
+right: -0.5em;}
+/* Language change */
 
 
 #logoimg {display: block; /*to make the image-rendering centerlise*/
