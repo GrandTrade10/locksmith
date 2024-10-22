@@ -1,6 +1,10 @@
-div#jobsd{margin: 0;
+
+
+div#jobsd{margin: auto;
 	text-align: center;
+	width:55%;
 }
+
 img.jobs{margin:8px;
 	text-align: center;
 }
@@ -31,6 +35,11 @@ top:-0.8em;
 right: -0.5em;}
 /* Language change */
 
+
+a:link p.lan{color: whitesmoke;}
+a:visited p.lan{color: dark blue;}
+a:hover p.lan{color: blue;}
+a:active p.lan{color: yellow;}
 
 #logoimg {display: block; /*to make the image-rendering centerlise*/
 width: 15%;
@@ -802,6 +811,15 @@ span.ts{
 #content-desktop {display: block;}
 #content-mobile{display: none;}
 
+div#jobsd{margin: auto;
+	text-align: center;
+	width:100%;
+}
+
+img.jobs{
+	width:200px;
+	height: 200px;
+}
 
 #containertop{
 	margin: auto;
@@ -866,6 +884,7 @@ padding: 8px;}
 #hidlghidlglock{display: block;}
 
 .logo{width: 23px;}
+
 
 H1{position: relative;
 	margin: auto;
@@ -933,6 +952,18 @@ line-height: 24px;}
 	padding: 8px 8px;
 		margin: 15px;
 }
+
+img.jobs{
+	width:190px;
+	height: auto;
+}
+
+
+div#jobsd{margin: auto;
+	text-align: center;
+	width:89%;
+}
+
 
 		#logoimg {display: block; /*to make the image-rendering centerlise*/
 width: 45%;
@@ -1064,6 +1095,17 @@ top: -3.4em;}
 		padding: 8px 8px;
 		margin: 20px;
 }
+
+div#jobsd{margin: auto;
+	text-align: center;
+	width:89%;
+}
+
+img.jobs{
+	width:190px;
+	height: auto;
+}
+
 
 #containerrev{
 	position: relative;
