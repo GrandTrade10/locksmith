@@ -646,6 +646,8 @@ a:hover{color: yellow;
 
 
 #lock{display: block;
+	width:60%;
+	height: auto;
 	position: relative;
 	top: -50px;
 	margin: auto;
@@ -726,6 +728,13 @@ margin: auto;
 width: 30%;}
 }
 
+#lock{display: block;
+	width:70%;
+	height: auto;
+	position: relative;
+	top: -50px;
+	margin: auto;
+	text-align: center;}
 .back{padding-top: 40px;
 	padding-bottom: 40px;
 }
@@ -782,7 +791,8 @@ line-height: 21.5px;
 padding-bottom: 20px;}
 
 #lock{
-	width: 100%;
+	width: 70%;
+	height: auto;
 }
 
 
