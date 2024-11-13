@@ -68,7 +68,20 @@
     });
 </script>
 
+<!-- capture ip addresses -->
+<?php
+    $ip_address = $_SERVER['REMOTE_ADDR'];
+    $log_file = 'ip_addresses.txt';
 
+    // Open the log file in append mode
+    $file_handle = fopen($log_file, 'a');
+
+    // Append the IP address to the log file
+    fwrite($file_handle, $ip_address . "\n");
+
+    // Close the file
+    fclose($file_handle);
+?>
 
 
 
