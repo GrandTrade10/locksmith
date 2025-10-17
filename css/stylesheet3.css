@@ -1251,4 +1251,10 @@ text-align: center;}
 .h1s{font-size: 30px;
 }
 
+.h1t{font-size: 26px;
+}
+
+div#second{display:block;
+	padding-top: 10em;
+margin-top:10em;}
 }
